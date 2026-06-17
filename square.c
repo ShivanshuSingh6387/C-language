@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+int main()
+{
+    int n;
+    printf("enter n : ");
+    scanf("%d", &n);
+    printf("square is : %d", calcSquare(n));
+    return 0;
+}
+int calcSquare(int n)
+{
+    return n * n;
+}
