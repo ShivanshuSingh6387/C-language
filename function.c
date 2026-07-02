@@ -1,16 +1,15 @@
-#include <stdio.h>
-// function declaration/prototype
-void printHello();
-int main()
-{
-    // function call
-    printHello();
-    printHello();
-    printHello();
-    return 0;
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void greet(){
+    printf("Hello World\n");
+    printf("Welcome to C programming\n");
+    return;
 }
-// function definition
-void printHello()
-{
-    printf("Hello!\n");
+int main(){
+    greet(); // Calling the function
+    printf("This is a simple function example.\n");
+    greet(); // Calling the function again
+    greet(); // Calling the function again
+return 0;
 }
